@@ -23,6 +23,42 @@
     </nav>
 </header>
 
+<title>Two Column Layout</title>
+<style>
+  /* Style for the columns */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+</style>
+</head>
 <body>
-    <p>page in progress!</p>
+
+<div class="row">
+  <!-- First Column for Photos -->
+  <div class="column">
+    <img src="https://media.licdn.com/dms/image/D4E03AQGkyRklEtmmxw/profile-displayphoto-shrink_800_800/0/1694917754396?e=1714608000&v=beta&t=gpigre2cgpeZPXf2v-LzUF-wwQm1JTfOVrwgyMlXQNo" style="max-height: 3300px; max-width: 300px;">
+    <!-- Add more photos here -->
+  </div>
+  
+  <!-- Second Column for Text -->
+  <div class="column">
+    <p>Autumn Pereira </p>
+    <p>email: arp288@cornell.edu</p>
+    <p>Linkedin</p>
+    <p>Twitter: earthtoautumn</p>
+    <!-- Add more images here -->
+  </div>
+</div>
+
 </body>
+</html>
