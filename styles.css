@@ -1,0 +1,45 @@
+/* Resetting default margin and padding */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the header */
+header {
+    color: #2e2e2e;
+    padding: 20px;
+    text-align: center; /* Centering the text */
+    font-size: ;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Lora', serif; /* Changing the font */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center; /* Centering the text */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #5d5d5d;
+    text-decoration: none;
+    font-family: 'Lora', serif; /* Changing the font */
+}
+
+/* Styling the main content */
+main {
+    padding: 20px;
+    font-family: 'Lora', serif;
+    text-align: center;
+}
+
+body {
+    background-color: #dadada7b;
+}
