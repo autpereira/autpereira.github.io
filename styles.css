@@ -6,15 +6,17 @@ body, h1, h2, p, ul {
 
 /* Styling the header */
 header {
-    color: #2e2e2e;
+    color: #5d5d5d;
     padding: 20px;
     text-align: center; /* Centering the text */
-    font-size: ;
+
 }
 
 header h1 {
     margin: 0;
-    font-family: 'Lora', serif; /* Changing the font */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 50px
 }
 
 nav ul {
@@ -30,16 +32,41 @@ nav ul li {
 nav ul li a {
     color: #5d5d5d;
     text-decoration: none;
-    font-family: 'Lora', serif; /* Changing the font */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
 }
 
 /* Styling the main content */
 main {
     padding: 20px;
-    font-family: 'Lora', serif;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
+    color: #2b2b2b
 }
 
 body {
-    background-color: #dadada7b;
+    background-color: #ececec7b;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    color: rgb(92, 141, 112); /* Change this to the color you prefer */
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.green {
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+}
+
+.black {
+    color: #5d5d5d;
+    font-weight: 500;
 }
