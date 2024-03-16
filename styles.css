@@ -1,72 +1,63 @@
-/* Resetting default margin and padding */
-body, h1, h2, p, ul {
-    margin: 0;
-    padding: 0;
-}
+/* For items that appear on all pages */
 
-/* Styling the header */
-header {
-    color: #5d5d5d;
-    padding: 20px;
-    text-align: center; /* Centering the text */
-
-}
-
-header h1 {
-    margin: 0;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    font-size: 50px
-}
-
-nav ul {
-    list-style-type: none;
-    text-align: center; /* Centering the text */
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: #5d5d5d;
-    text-decoration: none;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 500;
-
-}
-
-/* Styling the main content */
-main {
-    padding: 20px;
-    font-family: 'Manrope', sans-serif;
-    text-align: center;
-    color: #2b2b2b
-}
 
 body {
-    background-color: #ececec7b;
+    font-family: 'Inter';
+    font-weight: 250;
+    background-color: #F5EFE7;
+    margin: 0%;
+    background-image: url('resources/background\ blob.png');
+    background-position-y: top;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: 850px 500px;
 }
 
-footer {
-    text-align: center;
-}
 
-a {
-    color: rgb(92, 141, 112); /* Change this to the color you prefer */
+#website-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3% 8% 0% 8%;
+}
+#website-title {
+    font-size: 60px;
+}
+#nav-bar {
+    font-size: 20px;
+}
+#nav-item-current-page {
+    padding: 20px 30px;
+    color: inherit;
+    border-radius: 100px;
     text-decoration: none;
-    font-weight: bold;
-    font-family: 'Manrope', sans-serif;
-
+    font-weight: 700;
 }
-
-.green {
-    color: rgb(80, 80, 80);
-    font-weight: bold;
+#nav-item-current-page:hover {
+    background-color: #faedd4;
+    transition: 0.4s;
 }
-
-.black {
-    color: #5d5d5d;
-    font-weight: 500;
+#nav-item-current-page:active {
+    background-color: #f0dbb2;
+}
+#nav-item {
+    padding: 20px 30px;
+    color: inherit;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 350;
+}
+#nav-item:hover {
+    background-color: #faedd4;
+    transition: 0.4s;
+}
+#nav-item:active {
+    background-color: #f0dbb2;
+}
+#external-link-icon {
+    width: 20px;
+    padding: 0%;
+    margin: 0%;
 }

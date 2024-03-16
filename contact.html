@@ -4,78 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autumn Pereira</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        #contact-information-section {
+            margin: 8% 25% 2% 25%;
+            display: flex;
+            justify-content: center;
+        }
+        #address-section {
+            font-size: 30px;
+            text-align: center;
+            line-height: 200%;
+            margin: 0% 5%;
+        }
+        #address-text {
+            margin: 0% 0%;
+        }
+        #cornell-logo {
+            width: 75px;
+        }
+
+
+        #links-section {
+            font-size: 30px;
+            align-items: center;
+            margin: 0% 5%;
+        }
+        #links-section p {
+            margin: 3% 2%;
+            white-space: nowrap;
+        }
+        
+        #email {
+            display: flex;
+            align-items: center;
+        }
+        #email-logo {
+            width: 28px;
+            height: 28px;
+        }
+
+        #linkedin {
+            display: flex;
+            align-items: center;
+        }
+        #linkedin-logo {
+            width: 28px;
+            height: 28px;
+        }
+
+        #twitter {
+            display: flex;
+            align-items: center;
+        }
+        #twitter-logo {
+            width: 28px;
+            height: 23.33px;
+        }
+
+        #orcid {
+            display: flex;
+            align-items: center;
+        }
+        #orcid-logo {
+            width: 28px;
+            height: 28px;
+        }
+
+
+        #contact-photo-section {
+            margin: 0;
+            width: 50%;
+            margin: 0 auto;
+            margin-bottom: 5%;
+        }
+        #contact-photo {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
+    <div id="website-header">
+        <div id="website-title">Autumn <b>Pereira</b> </div>
+        <div id="nav-bar">
+          <a id="nav-item" href="index.html">Home</a>
+          <a id="nav-item" href="projects.html">Projects</a>
+          <!-- <a id="nav-item" href="outreach.html">Outreach</a> -->
+          <a id="nav-item" target="_blank" href="resources/Autumn-Pereira-CV-Feb-2024.pdf"> CV <img id="external-link-icon" src="resources/extrernal link icon.png"> </a>
+          <a id="nav-item-current-page" href="contact.html">Contact</a>
+        </div>
+    </div>
+    
+    <div id="contact-information-section">
+        <div id="address-section">
+            <p id="address-text">701 Bradfield Hall <br> Cornell University <br> Ithaca, NY, USA </p>
+            <img id="cornell-logo" src="/resources/cornell logo.png">
+        </div>
+        <div id="links-section">
 
-  <header>
-    <header>
-        <h1><span class="green">Autumn</span> <span class="black">Pereira</span></h1>
-    </header>
-    <br>
-    <nav>
-        <hr><ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="outreach.html">Outreach</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        <hr></ul>
-    </nav>
-</header>
+            <div id="email">
+                <img id="email-logo" src="resources/email logo.png" alt="Email">
+                <p>arp288 [at] cornell [dot] edu</p>
+            </div>
+            <div id="linkedin">
+                <img id="linkedin-logo" src="resources/linkedin logo.png" alt="LinkedIn">
+                <p>LinkedIn</p>
+            </div>
+            <div id="twitter">
+                <img id="twitter-logo" src="resources/twitter logo.webp" alt="Twitter">
+                <p>Twitter</p>
+            </div>
+            <div id="orcid">
+                <img id="orcid-logo" src="resources/ORCID logo.png" alt="ORCID">
+                <p>ORCID</p>
+            </div>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Two Column Layout</title>
-<style>
-  /* Style for the columns */
-  .column {
-    float: left;
-    width: calc(50% - 20px);
-    padding: 10px;
-    box-sizing: border-box;
-    border: 20px solid transparent; /* 20px border on left and right */
-    text-align: center;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout */
-  @media (max-width: 768px) {
-    .column {
-      width: 100%;
-    }
-  }
-</style>
-</head>
-<body>
+        </div>
+    </div>
 
-<div class="row">
-  <!-- First Column for Photos -->
-  <div class="column">
-    <img src="https://media.licdn.com/dms/image/D4E03AQGkyRklEtmmxw/profile-displayphoto-shrink_800_800/0/1694917754396?e=1714608000&v=beta&t=gpigre2cgpeZPXf2v-LzUF-wwQm1JTfOVrwgyMlXQNo" style="max-height: 500px; max-width: 500px;">
+    <div id="contact-photo-section">
+        <img id="contact-photo" src="resources/autumn contact photo.jpg" alt="Autumn Pereira">
+    </div>
 
-    <!-- Add more photos here -->
-  </div>
-  
-  <!-- Second Column for Text -->
-  <div class="column" >
-    <p><b>Autumn Pereira</b></p>
-    <p>Email: arp288@cornell.edu</p>
-    <p>Twitter: @earthtoautumn</p>
 
-    <!-- Add more images here -->
-  </div>
-</div>
-
+    
 </body>
 </html>

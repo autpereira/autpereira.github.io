@@ -4,52 +4,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autumn Pereira</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        #section-1 {
+            margin: 6% 8% 6% 8%;
+            display: flex;
+            justify-content: space-between;
+        }
+        #intro-text {
+            font-size: 38px;
+            line-height: 150%;
+            margin-right: 1.5%;
+        }
+        #autumn-portrait {
+            width: 100%;
+            border-radius: 35px;
+        }
+        #cornell-logo {
+            width: 105px;
+        }
+        #intro-links-bar {
+            font-size: 28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 3% 0%;
+        }
+        #intro-links-bar-item {
+            margin: 0% 3%;
+            color: #9FB5A5;
+            text-underline-offset: 7px;
+        }
+
+
+        #section-2-background {
+            background-color: #F0E5D0;
+            border-radius: 80px;
+            width: 100%;
+        }
+        #section-2 {
+            margin-top: 5%;
+            margin: 4% 8%;
+            padding: 3% 0%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #autumn-logo {
+            width: 400px;
+            margin: 5% 5% 5% 2%;
+        }
+        #section-2-text {
+            font-size: 28px;
+            text-align: center;
+            margin: 5%
+        }
+
+
+        #section-3 {
+            margin: 6% 8%;
+            text-align: center;
+            font-size: 28px;
+        }
+        #section-3 a {
+            color: #81ad8d
+        }
+    </style>
 </head>
 <body>
+    <div id="website-header">
+        <div id="website-title">Autumn <b>Pereira</b> </div>
+        <div id="nav-bar">
+            <a id="nav-item-current-page" href="index.html">Home</a>
+            <a id="nav-item" href="projects.html">Projects</a>
+            <!-- <a id="nav-item" href="outreach.html">Outreach</a> -->
+            <a id="nav-item" target="_blank" href="resources/Autumn-Pereira-CV-Feb-2024.pdf"> CV <img id="external-link-icon" src="resources/extrernal link icon.png"> </a>
+            <a id="nav-item" href="contact.html">Contact</a>
+        </div>
+    </div>
+    
+    <div id="section-1">
+        <div>
+            <div id="intro-text">
+                <p>Hello! I'm Autumn.</p>
+                <p>I’m a first-year MS/PhD student in the School of Integrated Plant Science at Cornell University.</p>
+            </div>
+            <br>
+            <br>
+            <div id="intro-links-bar">
+                <a id="intro-links-bar-item" target="_blank" href="https://www.linkedin.com/in/autumn-pereira-a022281a5/">LinkedIn</a>
+                <img id="cornell-logo" src="/resources/cornell logo.png">
+                <a id="intro-links-bar-item" target="_blank" href="https://orcid.org/0009-0009-4960-3068?fbclid=IwAR2hTw5etwtiuk0D2rh6ucry27uVEa794iWQQ1B5JypKyLlTUAsPf4cLgyI">ORCID</a>
+            </div>
+        </div>
+        <div>
+            <img id="autumn-portrait" src="/resources/autumn portrait.jpeg">
+        </div>
+    </div>
+    
+    <div id="section-2-background">
+        <div id="section-2">
+            <div>
+                <img id="autumn-logo" src="resources/autumn logo.png">
+            </div>
+            <div id="section-2-text">
+                <p>My research interests lie primarily in how soil microbial community composition shapes larger biogeochemical processes, and the release of greenhouse gases from terrestrial ecosystems.</p>
+                <br>
+                <p>I am also interested in leveraging soil microbial communities to increase soil ecosystem services, by promoting the assembly of beneficial microbiomes.</p>
+            </div>
+        </div>
+    </div>
+    
 
-<header>
-    <header>
-        <h1><span class="green">Autumn</span> <span class="black">Pereira</span></h1>
-    </header>
-    <br>
-    <nav>
-        <hr><ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="outreach.html">Outreach</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        <hr></ul>
-    </nav>
-</header>
-
-<main>
-    <section>
-        <h2>Hello! I'm Autumn</h2>
-        <br>
-        <p>I am a first year MS/PhD student in the School of Integrated Plant Science at Cornell University</p>
-        <br>
-        <img src="https://media.licdn.com/dms/image/D5616AQFFhNzpMjAzYA/profile-displaybackgroundimage-shrink_350_1400/0/1669324803007?e=1714608000&v=beta&t=OU2asL3wED2fG3Xf2WqKvWETGNorA-9k8mnXRftECME" style="max-height: 500px; max-width: 500px;">
-        <br>
-        <br>
-        <p>My research interests lie primarily in how soil microbial community composition shapes larger biogeochemical processes, and the release of greenhouse gasses from terrestrial ecosystems.</p>
-        <br>
-        <p> I am also interested in leveraging soil microbial communities to increase soil ecosystem services, by promoting the assembly of beneficial microbiomes.</p>
-        <br>
-        <p> Click through to see my current research and outreach projects, as well as how to get in contact with me!</p>
-    </section>
-</main>
+    <div id="section-3">
+        <p>I’m always interested in connecting to talk about science, and how to use systems-level thinking to improve our understanding of the links between microbiology, biogeochemical cycling and climate change.</p>
+        <p>If you’re interested in chatting, feel free to <a href="contact.html">reach out</a>!</p>
+    </div>
 
 
+    
 </body>
-
-<footer>
-    <br>
-    <br>
-    <a href="https://www.linkedin.com/in/autumn-pereira-a022281a5/" target="_blank">LinkedIn</a>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="https://orcid.org/0009-0009-4960-3068">ORCiD</a>
-</footer>
 </html>

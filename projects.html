@@ -4,27 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autumn Pereira</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        #section-1 {
+            margin: 6% 8% 6% 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #field-picture {
+            width: 425px;
+            margin-right: 80px;
+            border-radius: 35px;
+        }
+        #field-picture-text {
+            font-size: 30px;
+            line-height: 140%;
+            margin-right: 2.5%;
+            text-align: center;
+        }
+
+
+        #section-2-background {
+            background-color: #F0E5D0;
+            border-radius: 80px;
+            width: 100%;
+        }
+        #section-2 {
+            margin-top: 5%;
+            margin: 4% 8%;
+            padding: 2% 0%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #cyanobacteria-picture {
+            width: 550px;
+            height: 400px;
+            margin: 0% 5% 0% 2%;
+            border-radius: 35px;
+        }
+        #section-2-text {
+            font-size: 30px;
+            text-align: center;
+            margin: 4%;
+            line-height: 140%;
+        }
+
+
+        #section-3 {
+            margin: 6% 8%;
+            text-align: center;
+            font-size: 28px;
+        }
+        #section-3 a {
+            color: #81ad8d
+        }
+    </style>
 </head>
 <body>
+    <div id="website-header">
+        <div id="website-title">Autumn <b>Pereira</b> </div>
+        <div id="nav-bar">
+            <a id="nav-item" href="index.html">Home</a>
+            <a id="nav-item-current-page" href="projects.html">Projects</a>
+            <!-- <a id="nav-item" href="outreach.html">Outreach</a> -->
+            <a id="nav-item" target="_blank" href="resources/Autumn-Pereira-CV-Feb-2024.pdf"> CV <img id="external-link-icon" src="resources/extrernal link icon.png"> </a>
+            <a id="nav-item" href="contact.html">Contact</a>
+        </div>
+    </div>
+    
+    <div id="section-1">
+        <div>
+            <img id="field-picture" src="/resources/field_picture.jpg">
+        </div>
+        <div id="field-picture-text">
+            <p>Rice is a staple crop for over half of the world’s population, but the practices associated with rice growing are responsible for approximately <b>9% of all methane emissions</b> from human activities.</p>
+            <p>In this project, I am interested in understanding the links between soil microbial communities and methane emissions in rice paddies, as well as how soil chemistry may impact this relationship.</p>
+        </div>
+        
+    </div>
+    
+    <div id="section-2-background">
+        <div id="section-2">
+            <div id="section-2-text">
+                <p>Cyanobacterial blooms have been increasing in frequency since the onset of the industrial revolution, primarily due to agricultural intensification. These blooms represent a concern, as they can be associated with the release of harmful toxins into drinking water resources.</p>
+                <p>This project primarily involves looking at the dynamics between cyanobacterial taxa, to improve our understanding of drivers behind the formation of toxin-producing blooms.</p>
+            </div>
+            <div>
+                <img id="cyanobacteria-picture" src="resources/cyanobacteria.jpeg">
+            </div>
+        </div>
+    </div>
+    
 
-  <header>
-    <header>
-        <h1><span class="green">Autumn</span> <span class="black">Pereira</span></h1>
-    </header>
-    <br>
-    <nav>
-        <hr><ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="outreach.html">Outreach</a></li>
-            <li><a href="cv.html">CV</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        <hr></ul>
-    </nav>
-</header>
+    <div id="section-3">
+        <p>I’m always interested in connecting to talk about science, and how to use systems-level thinking to improve our understanding of the links between microbiology, biogeochemical cycling and climate change.</p>
+        <p>If you’re interested in chatting, feel free to <a href="contact.html">reach out</a>!</p>
+    </div>
+    
 
-<body>
-    <p>page in progress!</p>
+
+    
 </body>
+</html>
