@@ -5,14 +5,14 @@ body {
     font-family: 'Inter';
     font-weight: 250;
     background-color: #F5EFE7;
-    margin: 0%;
+    margin: 0;
     background-image: url('resources/background\ blob.png');
     background-position-y: top;
     background-position-x: right;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-    background-size: 850px 500px;
+    background-size: 50vw 29vw;
 }
 
 
@@ -20,18 +20,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3% 8% 0% 8%;
+    margin: 3vw 8vw 3vw 8vw;
 }
 #website-title {
-    font-size: 60px;
+    font-size: 3.5vw;
 }
 #nav-bar {
-    font-size: 20px;
+    font-size: 1.25vw;
 }
 #nav-item-current-page {
-    padding: 20px 30px;
+    padding: 1vw 2vw;
     color: inherit;
-    border-radius: 100px;
+    border-radius: 5vw;
     text-decoration: none;
     font-weight: 700;
 }
@@ -43,9 +43,9 @@ body {
     background-color: #f0dbb2;
 }
 #nav-item {
-    padding: 20px 30px;
+    padding: 1vw 2vw;
     color: inherit;
-    border-radius: 100px;
+    border-radius: 5vw;
     text-decoration: none;
     font-weight: 350;
 }
@@ -57,7 +57,7 @@ body {
     background-color: #f0dbb2;
 }
 #external-link-icon {
-    width: 20px;
+    width: 1.2vw;
     padding: 0%;
     margin: 0%;
 }
